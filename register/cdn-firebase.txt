@@ -1,0 +1,15 @@
+--- CDN FIREBASE (gradle:project) ---
+
+-dependencies
+classpath 'com.google.gms:google-services:4.3.10'
+
+--- CDN FIREBASE (gradle:app) ---
+
+-plugin
+id 'com.google.gms.google-services'
+
+-dependencies
+implementation platform('com.google.firebase:firebase-bom:28.4.2')
+implementation 'com.google.firebase:firebase-analytics'
+implementation 'com.google.firebase:firebase-auth:21.0.1'
+implementation 'com.google.firebase:firebase-database:20.0.2'
